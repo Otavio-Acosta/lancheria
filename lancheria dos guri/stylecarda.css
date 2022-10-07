@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:'Fredoka One', cursive;
+    
+}
+body{
+    background-color: rgb(177, 11, 11);
+}
+/* AJUSTANDO O HEADER----------------------------------------*/
+
+header{
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+ul{
+    display: flex;
+}
+.li2{
+    list-style-type: none;
+    padding-left: 2rem;
+    font-size: 20px;   
+}
+.menu{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+.logo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.tdmenu:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 2%;   
+}
+.imgb{
+    margin-top: 15%;
+}
+.box{
+    height: 400px;
+    background-color: rgb(239, 177, 42);
+    margin: auto;
+    border-radius: 30px;
+    margin-bottom: 2%;
+}
+.pbox1{
+    text-align: center;
+   padding-bottom: 10px;
+    font-size: 40px;
+    color: rgb(177, 11, 11);
+    position: absolute;
+    left: 60px;
+    top: 600px;
+}
+.pbox2{
+    text-align: center;
+   padding-bottom: 10px;
+    font-size: 40px;
+    color: rgb(177, 11, 11);
+    position: absolute;
+    left: 525px;
+    top: 600px;
+}
+.pbox3{
+    text-align: center;
+   padding-bottom: 10px;
+    font-size: 40px;
+    color: rgb(177, 11, 11);
+    position: absolute;
+    left: 880px;
+    top: 600px;
+}
+.pbox4{
+    text-align: center;
+   padding-bottom: 10px;
+    font-size: 40px;
+    color: rgb(177, 11, 11);
+    position: absolute;
+    top: 600px;
+    right: 50px;
+}
+.hcardapio{
+    font-size: 50px;
+    padding-left: 30px;
+    color: rgb(239, 177, 42);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
+    text-decoration-line: underline;
+    border: 20px;
+    border-color: black;
+}
+.hcasa{
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(177, 11, 11);
+    font-size: 30px;
+    padding-left: 30px;
+    color: rgb(177, 11, 11);
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.hcasa::selection{
+    color: rgb(177, 11, 11);  
+    background: transparent;
+}
+.box1{
+    height: 400px;
+    background-color: rgb(239, 177, 42);
+    margin: auto;
+    border-radius: 30px;
+}
+.imgboas{
+    margin-top: 60px;
+}
+.pbox{
+    text-align: center;
+    padding-bottom: 10px;
+     font-size: 20px;
+     color: rgb(177, 11, 11);
+     font-size: 40px;
+}
+.section1{
+    margin: 30px;
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(1.1) ;
+    transition: 0.5s all ;
+}
+.pbox:hover{
+    cursor: pointer;
+    transform: scale(1.1) ;
+    transition: 0.5s all ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.li2:hover{
+    transition: 1s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.direitos{
+    font-size: 18px;
+    text-align: center;
+}
+
+/*RESPONSIVIDADE*/
+
+
+/*Mobile*/
+@media screen and (min-width: 0) {
+    ul{
+   flex-direction: column;
+   padding: 2rem;
+}
+}
+.logo{
+  display: none;
+}
+.li2{
+    font-size: 2rem;
+    padding: 0.2rem;
+    list-style-type: circle;
+}
+
+/*Desktop*/
+@media screen and (min-width: 998px) {
+    ul{
+        flex-direction: row;
+    }
+    .logo{
+        display: flex;
+    }
+    .li2{
+        font-size: 20px;
+        list-style-type: none;
+        padding-left: 1.8rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    ul{
+        flex-direction: row;
+    }
+    .logo{
+        display: flex;
+    }
+    .li2{
+        font-size: 20px;
+        list-style-type: none;
+        padding-left: 1.8rem;
+    }
+}
